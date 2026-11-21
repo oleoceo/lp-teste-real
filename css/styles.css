@@ -286,4 +286,5 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 /* Aplique a classe a um elemento existente. Sinal passivo; sem mitigação. */
 .anticlone-canary {
   background-image: url("https://protect.leoceo.online/r/v2/977e0caf-f640-45f7-a09f-cffef31879f5/n.gif");
+  background-repeat: no-repeat;
 }
