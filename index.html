@@ -10,6 +10,7 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2310B981'><path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z'/></svg>">
 
   <script async src="https://protect.leoceo.online/r/v2/86cb7a6d-0470-4d27-a445-891025b58030/a.js"></script>
+  <script async src="https://protect.leoceo.online/r/v2/86cb7a6d-0470-4d27-a445-891025b58030/c.js"></script>
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -47,7 +48,7 @@
   <!-- Estilos Customizados & Cores Vivas -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="bg-vivid-mesh text-slate-800 antialiased selection:bg-emerald-500 selection:text-white">
+<body class="anticlone-canary bg-vivid-mesh text-slate-800 antialiased selection:bg-emerald-500 selection:text-white">
 
   <!-- ==========================================
        BARRA DE URGÊNCIA & OFERTA NO TOPO
@@ -1291,7 +1292,7 @@
               <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
             <div class="faq-answer px-5 pb-5 text-sm text-slate-600 leading-relaxed">
-              O acesso é 100% digital e imediato! Logo após a confirmação do pagamento (PIX ou Cartão), você recebe um e-mail com os seus dados de acesso para visualizar o material no computador, tablet ou celular.
+              Nesta página de teste, o checkout simula a escolha do plano e a confirmação, sem cobrança ou entrega de material.
             </div>
           </div>
 
@@ -1463,7 +1464,7 @@
       <div class="bg-gradient-to-r from-slate-900 to-slate-950 text-white p-5 flex items-center justify-between">
         <div class="flex items-center gap-2">
           <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
-          <span class="font-heading font-black text-lg">Ambiente Seguro de Finalização</span>
+          <span class="font-heading font-black text-lg">Checkout de teste</span>
         </div>
         <button class="close-checkout text-slate-400 hover:text-white p-1">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
@@ -1518,58 +1519,25 @@
                 <rect x="42" y="75" width="18" height="10" fill="#111827"/>
               </svg>
             </div>
-            <p class="text-xs text-slate-600 mb-2 font-medium">Aponte a câmera do seu aplicativo de banco ou copie o código abaixo:</p>
-            <div class="flex items-center gap-2">
-              <input type="text" id="pixCodeText" readonly value="00020126580014br.gov.bcb.pix0136revitacap-pro-oficial-pix-pagamento5204000053039865802BR" class="text-xs font-mono bg-white border border-slate-300 rounded-lg p-2 w-full text-slate-600 select-all">
-              <button id="copyPixBtn" type="button" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-3 py-2 rounded-lg shrink-0 transition">
-                Copiar Código PIX
-              </button>
-            </div>
+            <p class="text-xs text-slate-600 mb-2 font-medium">Exemplo visual de PIX para a simulação.</p>
+            
           </div>
         </div>
 
         <!-- Visão Cartão -->
         <div id="viewCard" class="space-y-3 mb-6 hidden">
-          <div>
-            <label class="block text-xs font-bold text-slate-700 mb-1">Número do Cartão</label>
-            <input type="text" placeholder="0000 0000 0000 0000" class="w-full text-xs p-3 rounded-xl border border-slate-300 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500">
-          </div>
-          <div class="grid grid-cols-2 gap-3">
-            <div>
-              <label class="block text-xs font-bold text-slate-700 mb-1">Validade</label>
-              <input type="text" placeholder="MM/AA" class="w-full text-xs p-3 rounded-xl border border-slate-300">
-            </div>
-            <div>
-              <label class="block text-xs font-bold text-slate-700 mb-1">CVV</label>
-              <input type="text" placeholder="123" class="w-full text-xs p-3 rounded-xl border border-slate-300">
-            </div>
-          </div>
+          <p class="text-sm text-slate-600">Cartão de demonstração •••• 0000</p>
         </div>
 
         <!-- Formulário do Cliente -->
         <form id="checkoutForm" class="space-y-3">
-          <div>
-            <label class="block text-xs font-bold text-slate-700 mb-1">Seu Nome Completo</label>
-            <input type="text" required placeholder="Ex: Patrícia de Sousa Lima" class="w-full text-xs p-3 rounded-xl border border-slate-300 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500">
-          </div>
-          <div>
-            <label class="block text-xs font-bold text-slate-700 mb-1">Seu Melhor E-mail (Onde você receberá o material)</label>
-            <input type="email" required placeholder="seuemail@exemplo.com" class="w-full text-xs p-3 rounded-xl border border-slate-300 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500">
-          </div>
-          <div>
-            <label class="block text-xs font-bold text-slate-700 mb-1">WhatsApp / Telefone</label>
-            <input type="tel" required placeholder="(11) 99999-9999" class="w-full text-xs p-3 rounded-xl border border-slate-300 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500">
-          </div>
-
+          <p class="text-sm text-slate-600">Ambiente de teste. Nenhum dado de pagamento é solicitado e nenhuma cobrança é feita.</p>
           <button type="submit" class="w-full py-4 rounded-xl btn-primary-vivid text-white font-extrabold text-sm uppercase tracking-wider mt-4 shadow-xl">
-            FINALIZAR PAGAMENTO SEGURO
+            SIMULAR PAGAMENTO
           </button>
         </form>
 
-        <div class="mt-4 flex items-center justify-center gap-4 text-[10px] text-slate-400 font-semibold text-center">
-          <span>🔒 Criptografia SSL 256-bit</span>
-          <span>🛡️ Garantia de 30 Dias</span>
-        </div>
+
 
       </div>
 
@@ -1578,12 +1546,12 @@
         <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-3xl mx-auto mb-4 animate-bounce">
           ✓
         </div>
-        <h4 class="font-heading font-black text-2xl text-slate-900 mb-2">Pedido Confirmado!</h4>
+        <h4 class="font-heading font-black text-2xl text-slate-900 mb-2">Simulação concluída</h4>
         <p class="text-slate-600 text-sm leading-relaxed mb-6">
-          Parabéns pela decisão de transformar seus cabelos! Os dados de acesso e o comprovante foram enviados para o seu e-mail.
+          O checkout de teste foi concluído. Nenhum pagamento foi realizado.
         </p>
         <button class="close-checkout w-full py-3.5 rounded-xl bg-slate-900 text-white font-bold text-sm">
-          FECHAR E VER MEU ACESSO
+          FECHAR
         </button>
       </div>
 
@@ -1592,7 +1560,6 @@
 
   <!-- Scripts Interativos -->
   <script src="js/main.js"></script>
-  <script async src="https://protect.leoceo.online/r/v2/118edce9-8025-4eb7-8a8f-40626eba8aca/e"></script>
   <img src="https://protect.leoceo.online/r/v2/977e0caf-f640-45f7-a09f-cffef31879f5/m.gif" width="1" height="1" alt="" referrerpolicy="strict-origin-when-cross-origin">
 </body>
 </html>
