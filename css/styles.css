@@ -1,0 +1,289 @@
+/* ==========================================================================
+   REVITACAP PRO - TRATAMENTO & RECUPERAÇÃO CAPILAR
+   Estilos Personalizados & Efeitos Visuais Vivos
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --primary-gradient: linear-gradient(135deg, #059669 0%, #10B981 50%, #34D399 100%);
+  --accent-gradient: linear-gradient(135deg, #FF3366 0%, #FF6584 50%, #FFA07A 100%);
+  --gold-gradient: linear-gradient(135deg, #F59E0B 0%, #FBBF24 50%, #D97706 100%);
+  --vivid-cyan: #06B6D4;
+  --vivid-emerald: #10B981;
+  --vivid-rose: #F43F5E;
+  --dark-bg: #090D16;
+  --card-dark: #111827;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #FAFCFB;
+  color: #1E293B;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Scrollbar Personalizada */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #10B981, #059669);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #047857;
+}
+
+/* Gradientes de Texto Vivos */
+.text-gradient-emerald {
+  background: linear-gradient(135deg, #059669 0%, #10B981 60%, #34D399 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-vivid {
+  background: linear-gradient(135deg, #FF1361 0%, #FFF800 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-coral {
+  background: linear-gradient(135deg, #FF385C 0%, #FB7185 50%, #F59E0B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #D97706 0%, #F59E0B 50%, #FCD34D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Background Gradients & Glows */
+.bg-vivid-mesh {
+  background-color: #FAFCFB;
+  background-image: 
+    radial-gradient(at 15% 15%, rgba(16, 185, 129, 0.12) 0px, transparent 50%),
+    radial-gradient(at 85% 10%, rgba(244, 63, 94, 0.08) 0px, transparent 50%),
+    radial-gradient(at 50% 50%, rgba(6, 182, 212, 0.08) 0px, transparent 50%),
+    radial-gradient(at 80% 85%, rgba(16, 185, 129, 0.1) 0px, transparent 50%);
+}
+
+.bg-dark-mesh {
+  background-color: #0A0F1D;
+  background-image: 
+    radial-gradient(at 10% 20%, rgba(16, 185, 129, 0.2) 0px, transparent 40%),
+    radial-gradient(at 90% 80%, rgba(244, 63, 94, 0.15) 0px, transparent 40%),
+    radial-gradient(at 50% 50%, rgba(6, 182, 212, 0.12) 0px, transparent 50%);
+}
+
+/* Efeito de Vidro (Glassmorphism) */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.05);
+}
+
+.glass-panel-dark {
+  background: rgba(17, 24, 39, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+}
+
+/* Botões com Brilho Intenso */
+.btn-primary-vivid {
+  background: linear-gradient(135deg, #059669 0%, #10B981 50%, #00D26A 100%);
+  box-shadow: 0 10px 25px -5px rgba(16, 185, 129, 0.45);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-primary-vivid:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 35px -5px rgba(16, 185, 129, 0.65);
+}
+
+.btn-coral-vivid {
+  background: linear-gradient(135deg, #FF2E63 0%, #FF577F 50%, #FF884B 100%);
+  box-shadow: 0 10px 25px -5px rgba(255, 46, 99, 0.45);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-coral-vivid:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px -5px rgba(255, 46, 99, 0.65);
+}
+
+/* Animação de Pulso Suave */
+@keyframes pulse-ring {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2.5s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(2deg); }
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+/* Shimmer de Destaque */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer-badge {
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2.5s infinite;
+}
+
+/* Comparador Antes / Depois Interativo */
+.before-after-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  user-select: none;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+}
+
+.before-after-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  overflow: hidden;
+  border-right: 3px solid #10B981;
+}
+
+.slider-handle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  background: #10B981;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.7);
+  cursor: ew-resize;
+  z-index: 20;
+  pointer-events: none;
+}
+
+/* Accordion FAQ */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease-out, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 400px;
+  opacity: 1;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+  color: #10B981;
+}
+
+/* Card Destacado Plano Completo */
+.card-featured {
+  position: relative;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.card-featured::before {
+  content: '';
+  position: absolute;
+  top: -2px; right: -2px; bottom: -2px; left: -2px;
+  z-index: -1;
+  margin: -2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #10B981 0%, #FF3366 50%, #F59E0B 100%);
+}
+
+/* Notificação Social Proof Flutuante */
+#social-proof-toast {
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateY(120%);
+  opacity: 0;
+}
+
+#social-proof-toast.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Modal de Checkout */
+#checkout-modal {
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#checkout-modal.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+#checkout-modal:not(.hidden) {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Glow e Badges */
+.badge-vivid {
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  color: #065F46;
+}
+
+.dark-badge-vivid {
+  background: rgba(16, 185, 129, 0.2);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  color: #34D399;
+}
+
+/* Aplique a classe a um elemento existente. Sinal passivo; sem mitigação. */
+.anticlone-canary {
+  background-image: url("https://protect.leoceo.online/r/v2/977e0caf-f640-45f7-a09f-cffef31879f5/n.gif");
+}

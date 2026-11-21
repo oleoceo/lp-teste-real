@@ -1,0 +1,1598 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RevitaCap Pro | Tratamento Capilar Avançado & Recuperação dos Fios</title>
+  <meta name="description" content="Recupere a força, o volume e o brilho dos seus cabelos em até 28 dias. Método 100% natural comprovado para estancar a queda e acelerar o nascimento de novos fios.">
+  
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2310B981'><path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z'/></svg>">
+
+  <script async src="https://protect.leoceo.online/r/v2/86cb7a6d-0470-4d27-a445-891025b58030/a.js"></script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#ecfdf5',
+              100: '#d1fae5',
+              200: '#a7f3d0',
+              300: '#6ee7b7',
+              400: '#34d399',
+              500: '#10b981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065f46',
+              900: '#064e3b',
+            },
+            vividCoral: '#FF385C',
+            vividAmber: '#F59E0B',
+            vividCyan: '#06B6D4',
+            darkSlate: '#0B1329',
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            heading: ['Outfit', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Estilos Customizados & Cores Vivas -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-vivid-mesh text-slate-800 antialiased selection:bg-emerald-500 selection:text-white">
+
+  <!-- ==========================================
+       BARRA DE URGÊNCIA & OFERTA NO TOPO
+       ========================================== -->
+  <div class="bg-gradient-to-r from-emerald-600 via-teal-600 to-rose-600 text-white text-xs sm:text-sm py-2 px-4 shadow-sm font-medium">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+      <div class="flex items-center gap-2 justify-center">
+        <span class="inline-flex items-center justify-center bg-rose-500 text-white text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-full animate-pulse">
+          Exclusivo
+        </span>
+        <span>🔥 Oferta de Lançamento: Vagas com até <strong>81% de Desconto</strong></span>
+      </div>
+      <div class="flex items-center gap-4 text-xs font-semibold">
+        <div class="bg-black/25 px-2.5 py-1 rounded-md flex items-center gap-1.5 backdrop-blur-sm border border-white/10">
+          <svg class="w-4 h-4 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+          <span>Expira em: <span class="countdown-timer text-amber-300 font-mono font-bold">14:59</span></span>
+        </div>
+        <span class="hidden md:inline-flex items-center gap-1 text-emerald-200">
+          <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+          </svg>
+          Garantia Blindada de 30 Dias
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       HEADER & NAVEGAÇÃO
+       ========================================== -->
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-emerald-100/60 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- LOGO -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-400 p-0.5 shadow-lg shadow-emerald-500/20 group-hover:shadow-emerald-500/40 transition">
+          <div class="w-full h-full bg-slate-900 rounded-[14px] flex items-center justify-center text-white">
+            <svg class="w-6 h-6 text-emerald-400 transform group-hover:scale-110 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+        </div>
+        <div>
+          <span class="text-2xl font-black font-heading tracking-tight text-slate-900">
+            Revita<span class="text-gradient-emerald">Cap</span>
+            <span class="text-rose-500 text-sm align-super font-bold">PRO</span>
+          </span>
+          <span class="block text-[10px] uppercase font-bold tracking-widest text-emerald-700">Tratamento & Regeneração</span>
+        </div>
+      </a>
+
+      <!-- MENU DESKTOP -->
+      <nav class="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-600">
+        <a href="#beneficios" class="hover:text-emerald-600 transition">Benefícios</a>
+        <a href="#como-funciona" class="hover:text-emerald-600 transition">Como Funciona</a>
+        <a href="#comparador" class="hover:text-emerald-600 transition">Antes & Depois</a>
+        <a href="#quiz" class="hover:text-emerald-600 transition flex items-center gap-1.5 text-rose-500">
+          <span class="w-2 h-2 rounded-full bg-rose-500 animate-ping"></span>
+          Teste Capilar
+        </a>
+        <a href="#depoimentos" class="hover:text-emerald-600 transition">Resultados</a>
+        <a href="#precos" class="hover:text-emerald-600 transition">Planos</a>
+        <a href="#faq" class="hover:text-emerald-600 transition">Dúvidas</a>
+      </nav>
+
+      <!-- BOTÃO CTA HEADER -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="#precos" class="btn-primary-vivid text-white px-5 py-2.5 rounded-xl font-bold text-sm tracking-wide flex items-center gap-2 group">
+          <span>VER PLANOS A PARTIR DE R$ 19</span>
+          <svg class="w-4 h-4 transform group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- BOTÃO HAMBURGER MOBILE -->
+      <button id="mobileMenuBtn" class="lg:hidden p-2 rounded-xl text-slate-700 hover:bg-slate-100 transition" aria-label="Abrir Menu">
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- MENU MOBILE DRAWER -->
+  <div id="mobileMenu" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden flex flex-col justify-end">
+    <div class="bg-white rounded-t-3xl p-6 shadow-2xl max-h-[85vh] overflow-y-auto">
+      <div class="flex items-center justify-between pb-4 border-b border-slate-100">
+        <span class="font-heading font-black text-xl text-slate-900">Navegação Rápida</span>
+        <button id="closeMobileMenu" class="p-2 text-slate-500 hover:text-slate-800">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div class="flex flex-col gap-4 py-6 text-base font-medium text-slate-700">
+        <a href="#beneficios" class="mobile-nav-link hover:text-emerald-600">🌿 Benefícios Comprovados</a>
+        <a href="#como-funciona" class="mobile-nav-link hover:text-emerald-600">🔬 Como Funciona o Método</a>
+        <a href="#comparador" class="mobile-nav-link hover:text-emerald-600">✨ Resultados Antes & Depois</a>
+        <a href="#quiz" class="mobile-nav-link text-rose-500 font-semibold">🎯 Fazer Diagnóstico Gratuito</a>
+        <a href="#depoimentos" class="mobile-nav-link hover:text-emerald-600">💬 Depoimentos de Clientes</a>
+        <a href="#precos" class="mobile-nav-link hover:text-emerald-600">💰 Planos (R$ 19 e R$ 37)</a>
+        <a href="#faq" class="mobile-nav-link hover:text-emerald-600">❓ Perguntas Frequentes</a>
+      </div>
+      <a href="#precos" class="mobile-nav-link btn-primary-vivid text-white text-center w-full py-3.5 rounded-xl font-bold block shadow-lg">
+        QUERO MEU PLANO COM DESCONTO
+      </a>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ==========================================
+         HERO SECTION (ALTO IMPACTO E CORES VIVAS)
+         ========================================== -->
+    <section class="relative pt-12 pb-20 md:pt-20 md:pb-32 overflow-hidden">
+      <!-- Elementos Decorativos de Fundo -->
+      <div class="absolute top-10 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-gradient-to-tr from-emerald-300/30 via-teal-200/20 to-rose-300/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
+      <div class="absolute -top-10 right-10 w-72 h-72 bg-rose-400/15 rounded-full blur-2xl pointer-events-none -z-10 animate-float-slow"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          
+          <!-- LADO ESQUERDO: COPY DE ALTA CONVERSÃO -->
+          <div class="lg:col-span-7 text-center lg:text-left">
+            
+            <!-- Badge Superior -->
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs sm:text-sm font-semibold mb-6 shadow-sm">
+              <span class="flex h-2 w-2 rounded-full bg-emerald-500 animate-ping"></span>
+              <span>Inovação Tricológica 2026 • 100% Natural</span>
+            </div>
+
+            <!-- Título Principal com Destaques Vivos -->
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold font-heading text-slate-900 leading-[1.15] tracking-tight mb-6">
+              Recupere a <span class="text-gradient-emerald">Densidade, Força</span> e o Brilho dos Seus Fios em <span class="text-gradient-coral">Menos de 28 Dias</span>
+            </h1>
+
+            <!-- Subtítulo Persuasivo -->
+            <p class="text-base sm:text-xl text-slate-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+              O protocolo prático que combate a causa raiz da calvície e queda excessiva: <strong>reativa os folículos adormecidos</strong>, bloqueia o hormônio DHT e devolve fios 3x mais espessos sem medicamentos pesados.
+            </p>
+
+            <!-- Badges de Benefícios Rápidos -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-8 max-w-xl mx-auto lg:mx-0 text-left">
+              <div class="flex items-center gap-2 p-2.5 rounded-xl bg-white/80 border border-emerald-100 shadow-sm">
+                <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <span class="text-xs font-bold text-slate-700">Parada da Queda em 14 Dias</span>
+              </div>
+
+              <div class="flex items-center gap-2 p-2.5 rounded-xl bg-white/80 border border-rose-100 shadow-sm">
+                <div class="w-8 h-8 rounded-lg bg-rose-100 text-rose-600 flex items-center justify-center shrink-0">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                </div>
+                <span class="text-xs font-bold text-slate-700">Crescimento 3x Acelerado</span>
+              </div>
+
+              <div class="flex items-center gap-2 p-2.5 rounded-xl bg-white/80 border border-amber-100 shadow-sm col-span-2 sm:col-span-1">
+                <div class="w-8 h-8 rounded-lg bg-amber-100 text-amber-600 flex items-center justify-center shrink-0">
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                </div>
+                <span class="text-xs font-bold text-slate-700">Fórmula 100% Segura</span>
+              </div>
+            </div>
+
+            <!-- Botões de Ação Duplos -->
+            <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start mb-8">
+              <a href="#precos" class="w-full sm:w-auto btn-primary-vivid text-white text-base sm:text-lg font-extrabold px-8 py-4 rounded-2xl text-center shadow-xl flex items-center justify-center gap-3 group">
+                <span>QUERO RESTAURAR MEUS CABELOS</span>
+                <svg class="w-5 h-5 transform group-hover:translate-x-1.5 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </a>
+
+              <a href="#quiz" class="w-full sm:w-auto px-6 py-4 rounded-2xl bg-white border-2 border-slate-200 hover:border-emerald-500 font-bold text-slate-700 hover:text-emerald-600 transition flex items-center justify-center gap-2 text-sm shadow-sm">
+                <svg class="w-5 h-5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                </svg>
+                <span>Fazer Teste Capilar (1 Min)</span>
+              </a>
+            </div>
+
+            <!-- Prova Social no Hero -->
+            <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4 border-t border-slate-200/70">
+              <div class="flex -space-x-3">
+                <img class="w-10 h-10 rounded-full border-2 border-white object-cover shadow" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" alt="Usuária satisfeita">
+                <img class="w-10 h-10 rounded-full border-2 border-white object-cover shadow" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces" alt="Usuário satisfeito">
+                <img class="w-10 h-10 rounded-full border-2 border-white object-cover shadow" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=faces" alt="Usuária satisfeita">
+                <img class="w-10 h-10 rounded-full border-2 border-white object-cover shadow" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=faces" alt="Usuário satisfeito">
+                <div class="w-10 h-10 rounded-full border-2 border-white bg-emerald-600 text-white font-bold text-xs flex items-center justify-center shadow">
+                  +45k
+                </div>
+              </div>
+              <div class="text-left text-xs sm:text-sm">
+                <div class="flex items-center gap-1 text-amber-400">
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                  <span class="font-bold text-slate-800 ml-1">4.9 / 5.0</span>
+                </div>
+                <p class="text-slate-500 font-medium">Mais de <strong>45.000 pessoas</strong> com fios recuperados em todo o Brasil</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- LADO DIREITO: CARD VISUAL TECNOLÓGICO -->
+          <div class="lg:col-span-5 relative">
+            <div class="relative mx-auto max-w-md">
+              
+              <!-- Card Principal com Efeito Glassmorphism & Luzes Vivas -->
+              <div class="relative rounded-3xl bg-gradient-to-b from-slate-900 to-slate-950 p-6 sm:p-8 text-white shadow-2xl border border-emerald-500/30 overflow-hidden">
+                
+                <!-- Glow interior -->
+                <div class="absolute -top-24 -right-24 w-52 h-52 bg-emerald-500/30 rounded-full blur-3xl pointer-events-none"></div>
+                <div class="absolute -bottom-24 -left-24 w-52 h-52 bg-rose-500/25 rounded-full blur-3xl pointer-events-none"></div>
+
+                <!-- Header do Card -->
+                <div class="flex items-center justify-between border-b border-white/10 pb-4 mb-6">
+                  <div class="flex items-center gap-2.5">
+                    <span class="w-3 h-3 rounded-full bg-emerald-400 animate-ping"></span>
+                    <span class="text-xs uppercase tracking-wider font-extrabold text-emerald-400">Microscopia Folicular</span>
+                  </div>
+                  <span class="text-xs bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full font-bold border border-emerald-500/30">
+                    Tecnologia Bio-Capilar
+                  </span>
+                </div>
+
+                <!-- Imagem Ilustrativa / Gráfico Comparativo -->
+                <div class="relative rounded-2xl overflow-hidden mb-6 bg-slate-800/80 border border-white/10 p-4">
+                  <div class="grid grid-cols-2 gap-4 text-center">
+                    <div class="p-3 rounded-xl bg-slate-900/80 border border-rose-500/30">
+                      <div class="text-rose-400 font-bold text-xs uppercase mb-1">Antes do Método</div>
+                      <div class="h-24 flex items-center justify-center relative overflow-hidden rounded-lg bg-slate-950">
+                        <!-- Representação visual de fio enfraquecido -->
+                        <div class="w-1.5 h-16 bg-rose-500/50 rounded-full relative">
+                          <span class="absolute top-2 -right-4 text-[10px] text-rose-400">Ralo</span>
+                        </div>
+                      </div>
+                      <div class="text-[11px] text-slate-400 mt-2 font-medium">Bulbo sufocado por DHT & Falta de oxigenação</div>
+                    </div>
+
+                    <div class="p-3 rounded-xl bg-slate-900/80 border border-emerald-500/40 relative">
+                      <span class="absolute -top-2 right-2 bg-emerald-500 text-slate-950 text-[9px] font-black px-1.5 py-0.5 rounded-full">3x MAIS</span>
+                      <div class="text-emerald-400 font-bold text-xs uppercase mb-1">Depois de 28 Dias</div>
+                      <div class="h-24 flex items-center justify-center gap-1.5 relative overflow-hidden rounded-lg bg-slate-950">
+                        <!-- Fios grossos e nutridos -->
+                        <div class="w-3 h-20 bg-emerald-400 rounded-full shadow-[0_0_15px_rgba(16,185,129,0.8)]"></div>
+                        <div class="w-2.5 h-16 bg-teal-300 rounded-full"></div>
+                        <div class="w-2.5 h-18 bg-emerald-400 rounded-full"></div>
+                      </div>
+                      <div class="text-[11px] text-emerald-300 mt-2 font-semibold">Folículo desobstruído & Raiz 100% fortalecida</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Métricas do Tratamento -->
+                <div class="space-y-3.5 mb-6">
+                  <div>
+                    <div class="flex justify-between text-xs font-bold mb-1">
+                      <span class="text-slate-300">Bloqueio da Queda</span>
+                      <span class="text-emerald-400">98.4%</span>
+                    </div>
+                    <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+                      <div class="bg-gradient-to-r from-emerald-500 to-teal-400 h-full rounded-full" style="width: 98.4%"></div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="flex justify-between text-xs font-bold mb-1">
+                      <span class="text-slate-300">Nascimento de Novos Fios</span>
+                      <span class="text-teal-300">94.7%</span>
+                    </div>
+                    <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+                      <div class="bg-gradient-to-r from-teal-400 to-cyan-400 h-full rounded-full" style="width: 94.7%"></div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="flex justify-between text-xs font-bold mb-1">
+                      <span class="text-slate-300">Aumento de Volume e Espessura</span>
+                      <span class="text-rose-400">92.1%</span>
+                    </div>
+                    <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+                      <div class="bg-gradient-to-r from-rose-500 to-amber-400 h-full rounded-full" style="width: 92.1%"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Chamada Direta no Card -->
+                <div class="bg-emerald-500/10 border border-emerald-500/30 rounded-2xl p-4 flex items-center justify-between gap-3">
+                  <div>
+                    <div class="text-xs text-emerald-300 font-bold uppercase">Comece Hoje Mesmo</div>
+                    <div class="text-lg font-black text-white">Apenas R$ 19,00 ou R$ 37,00</div>
+                  </div>
+                  <a href="#precos" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs px-3.5 py-2.5 rounded-xl transition shadow-lg shrink-0">
+                    ESCOLHER
+                  </a>
+                </div>
+
+              </div>
+
+              <!-- Floating Micro-Card 1 -->
+              <div class="absolute -bottom-6 -left-6 bg-white p-3.5 rounded-2xl shadow-xl border border-emerald-100 flex items-center gap-3 animate-float max-w-[210px]">
+                <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-lg shrink-0">
+                  ⚡
+                </div>
+                <div>
+                  <div class="text-[11px] font-bold text-slate-800">Ação Rápida</div>
+                  <div class="text-[10px] text-slate-500">Queda reduzida já na 1ª semana</div>
+                </div>
+              </div>
+
+              <!-- Floating Micro-Card 2 -->
+              <div class="absolute -top-6 -right-4 bg-white p-3 rounded-2xl shadow-xl border border-rose-100 flex items-center gap-2.5 animate-float-slow">
+                <span class="flex h-3 w-3 relative">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-rose-500"></span>
+                </span>
+                <span class="text-xs font-bold text-slate-800">Sem Efeitos Colaterais</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         FAIXA DE AUTORIDADE / MÍDIA
+         ========================================== -->
+    <section class="py-8 bg-white border-y border-slate-200/60">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <p class="text-xs uppercase tracking-widest font-extrabold text-slate-600 mb-6">
+          Fundamentos científicos destacados nos maiores canais de saúde e estética
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-8 sm:gap-14 opacity-70 grayscale hover:grayscale-0 transition-all duration-300">
+          <span class="font-heading font-black text-xl sm:text-2xl tracking-tighter text-slate-800">G1 <span class="text-emerald-600">BEM-ESTAR</span></span>
+          <span class="font-heading font-black text-xl sm:text-2xl tracking-tight text-slate-800">Viva<span class="text-rose-500">Bem</span> UOL</span>
+          <span class="font-heading font-bold text-lg sm:text-xl tracking-wider text-slate-800">REVISTA SAÚDE</span>
+          <span class="font-heading font-extrabold text-xl sm:text-2xl tracking-tighter text-slate-800">TERRA <span class="text-emerald-500">VIDA</span></span>
+          <span class="font-heading font-black text-xl sm:text-2xl tracking-tight text-slate-800">BEAUTY<span class="text-cyan-500">PRO</span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         A DOR & A VERDADE (POR QUE SEU CABELO CAI?)
+         ========================================== -->
+    <section id="problema" class="py-20 bg-slate-50 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs font-bold uppercase tracking-widest text-rose-500 bg-rose-50 px-3 py-1 rounded-full border border-rose-200">
+            Você se identifica com isso?
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-slate-900 mt-4 mb-4">
+            A Queda Capilar Não Começa no Fio. Ela Começa no <span class="text-gradient-coral">Folículo Sufocado</span>.
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg">
+            A maioria das pessoas gasta fortunas com shampoos caros, tônicos milagrosos e cápsulas genéricas que não funcionam. Sabe por quê? Porque eles só tratam a superfície externa.
+          </p>
+        </div>
+
+        <!-- Grid de 4 Dores Comuns -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          
+          <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+            <div class="w-12 h-12 rounded-xl bg-rose-100 text-rose-600 flex items-center justify-center font-bold text-2xl mb-4">
+              🚿
+            </div>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mb-2">Ralo Cheio de Cabelo</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Ver tufos de cabelo no chuveiro ao lavar a cabeça e fios espalhados no travesseiro ao acordar gera desespero diário.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+            <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center font-bold text-2xl mb-4">
+              🪞
+            </div>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mb-2">Entradas & Couro Visível</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              O espelho sob luz forte não mente: a risca do cabelo abrindo, entradas aumentando e a densidade sumindo a cada mês.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+            <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center font-bold text-2xl mb-4">
+              🥀
+            </div>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mb-2">Fios Ralos e Quebradiços</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              O cabelo perdeu o corpo, o brilho e a força. Parece que não cresce mais e qualquer vento ou escova quebra facilmente.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+            <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-2xl mb-4">
+              💸
+            </div>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mb-2">Dinheiro Jogado Fora</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Promessas vazias de farmácia e produtos de R$ 200 a R$ 500 que só deixam o cabelo pesado ou não dão resultado algum.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Faixa de Resolução Científica -->
+        <div class="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-8 sm:p-12 shadow-xl border border-emerald-500/20">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-8">
+              <span class="text-emerald-400 font-extrabold text-xs uppercase tracking-widest">A Virada de Chave</span>
+              <h3 class="text-2xl sm:text-3xl font-extrabold font-heading mt-2 mb-4">
+                Como o RevitaCap Pro Desbloqueia os Bulbos Capilares Adormecidos
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                Quando o DHT (di-hidrotestosterona) se liga aos seus folículos e o couro cabeludo inflama, os vasos sanguíneos se fecham. O fio é estrangulado e cai. O método <strong>RevitaCap Pro</strong> atua diretamente na purificação do couro cabeludo, desobstrução dos poros e estímulo vascular bio-ativo, fazendo com que o bulbo volte a receber nutrientes e produza fios novos e resistentes.
+              </p>
+            </div>
+            <div class="lg:col-span-4 text-center lg:text-right">
+              <a href="#precos" class="btn-coral-vivid text-white font-extrabold px-6 py-4 rounded-xl text-sm inline-flex items-center gap-2 shadow-lg">
+                <span>QUERO ACESSAR O MÉTODO</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         BENEFÍCIOS EXCLUSIVOS (CORES VIVAS)
+         ========================================== -->
+    <section id="beneficios" class="py-20 bg-white relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs font-bold uppercase tracking-widest text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+            Resultados Comprovados
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-slate-900 mt-4 mb-4">
+            Tudo o Que Seu Cabelo Precisa Para Uma <span class="text-gradient-emerald">Transformação Completa</span>
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg">
+            Desenvolvido para atender homens e mulheres de todas as idades e tipos de cabelo, sem contraindicações.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Benefício 1 -->
+          <div class="p-8 rounded-3xl bg-gradient-to-br from-emerald-50/50 to-white border border-emerald-200/80 shadow-sm hover:shadow-xl transition group">
+            <div class="w-14 h-14 rounded-2xl bg-emerald-500 text-white flex items-center justify-center font-black text-2xl shadow-lg shadow-emerald-500/30 mb-6 group-hover:scale-110 transition">
+              🛡️
+            </div>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mb-3">Bloqueio Ativo do DHT</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Neutraliza naturalmente a ação do hormônio responsável por miniaturizar e matar os folículos, blindando a raiz contra quedas futuras.
+            </p>
+          </div>
+
+          <!-- Benefício 2 -->
+          <div class="p-8 rounded-3xl bg-gradient-to-br from-teal-50/50 to-white border border-teal-200/80 shadow-sm hover:shadow-xl transition group">
+            <div class="w-14 h-14 rounded-2xl bg-teal-500 text-white flex items-center justify-center font-black text-2xl shadow-lg shadow-teal-500/30 mb-6 group-hover:scale-110 transition">
+              🌱
+            </div>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mb-3">Nascimento de Novos Fios</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Reativa os bulbos capilares que estavam dormentes há meses, preenchendo falhas visíveis, entradas e áreas com baixa densidade.
+            </p>
+          </div>
+
+          <!-- Benefício 3 -->
+          <div class="p-8 rounded-3xl bg-gradient-to-br from-rose-50/50 to-white border border-rose-200/80 shadow-sm hover:shadow-xl transition group">
+            <div class="w-14 h-14 rounded-2xl bg-rose-500 text-white flex items-center justify-center font-black text-2xl shadow-lg shadow-rose-500/30 mb-6 group-hover:scale-110 transition">
+              💪
+            </div>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mb-3">Fios 3x Mais Espessos</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Nutrição profunda do córtex à cutícula que devolve corpo e espessura real aos fios finos e ralos, evitando quebra mecânica.
+            </p>
+          </div>
+
+          <!-- Benefício 4 -->
+          <div class="p-8 rounded-3xl bg-gradient-to-br from-cyan-50/50 to-white border border-cyan-200/80 shadow-sm hover:shadow-xl transition group">
+            <div class="w-14 h-14 rounded-2xl bg-cyan-500 text-white flex items-center justify-center font-black text-2xl shadow-lg shadow-cyan-500/30 mb-6 group-hover:scale-110 transition">
+              ✨
+            </div>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mb-3">Brilho Espelhado & Sedosidade</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Selamento natural das escamas capilares para reter a hidratação, eliminando o frizz e trazendo maciez imediata ao toque.
+            </p>
+          </div>
+
+          <!-- Benefício 5 -->
+          <div class="p-8 rounded-3xl bg-gradient-to-br from-amber-50/50 to-white border border-amber-200/80 shadow-sm hover:shadow-xl transition group">
+            <div class="w-14 h-14 rounded-2xl bg-amber-500 text-white flex items-center justify-center font-black text-2xl shadow-lg shadow-amber-500/30 mb-6 group-hover:scale-110 transition">
+              💆
+            </div>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mb-3">Couro Cabeludo Saudável</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Controle definitivo de excesso de oleosidade, caspa, coceiras e descamações que intoxicam a raiz do cabelo.
+            </p>
+          </div>
+
+          <!-- Benefício 6 -->
+          <div class="p-8 rounded-3xl bg-gradient-to-br from-indigo-50/50 to-white border border-indigo-200/80 shadow-sm hover:shadow-xl transition group">
+            <div class="w-14 h-14 rounded-2xl bg-indigo-500 text-white flex items-center justify-center font-black text-2xl shadow-lg shadow-indigo-500/30 mb-6 group-hover:scale-110 transition">
+              🌿
+            </div>
+            <h3 class="font-heading font-extrabold text-xl text-slate-900 mb-3">100% Caseiro & Sem Efeitos Colaterais</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Livre de substâncias nocivas, sem risco de impotência, alterações hormonais ou dependência de remédios farmacêuticos.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         COMO FUNCIONA (PASSO A PASSO DA REGENERAÇÃO)
+         ========================================== -->
+    <section id="como-funciona" class="py-20 bg-dark-mesh text-white relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs font-bold uppercase tracking-widest text-emerald-400 bg-emerald-500/20 px-3 py-1 rounded-full border border-emerald-500/30">
+            Fase a Fase
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-heading mt-4 mb-4">
+            O Ciclo de 4 Semanas Para a <span class="text-gradient-emerald">Restauração Capilar</span>
+          </h2>
+          <p class="text-slate-400 text-base sm:text-lg">
+            Um cronograma claro e sem complicações que você aplica na sua rotina diária em menos de 10 minutos.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Passo 1 -->
+          <div class="glass-panel-dark p-6 rounded-3xl border border-emerald-500/20 relative">
+            <span class="absolute top-4 right-4 text-3xl font-black text-emerald-500/30">01</span>
+            <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-lg mb-4">
+              1ª Sem
+            </div>
+            <h3 class="text-lg font-bold font-heading mb-2 text-white">Detox & Desobstrução</h3>
+            <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Remoção profunda da camada de oleosidade e toxinas acumuladas que sufocavam os poros, cessando a coceira e estabilizando a raiz.
+            </p>
+          </div>
+
+          <!-- Passo 2 -->
+          <div class="glass-panel-dark p-6 rounded-3xl border border-teal-500/20 relative">
+            <span class="absolute top-4 right-4 text-3xl font-black text-teal-500/30">02</span>
+            <div class="w-10 h-10 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold text-lg mb-4">
+              2ª Sem
+            </div>
+            <h3 class="text-lg font-bold font-heading mb-2 text-white">Estancamento da Queda</h3>
+            <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Queda reduzida em até 85%. Os fios antigos ganham aderência firme no bulbo e param de cair na escova e no banho.
+            </p>
+          </div>
+
+          <!-- Passo 3 -->
+          <div class="glass-panel-dark p-6 rounded-3xl border border-cyan-500/20 relative">
+            <span class="absolute top-4 right-4 text-3xl font-black text-cyan-500/30">03</span>
+            <div class="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-lg mb-4">
+              3ª Sem
+            </div>
+            <h3 class="text-lg font-bold font-heading mb-2 text-white">Broto Folicular Ativo</h3>
+            <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Surgimento dos novos fios finos (baby hairs) nas áreas de falhas e entradas. A microcirculação estimulada nutre a raiz 24 horas por dia.
+            </p>
+          </div>
+
+          <!-- Passo 4 -->
+          <div class="glass-panel-dark p-6 rounded-3xl border border-rose-500/20 relative">
+            <span class="absolute top-4 right-4 text-3xl font-black text-rose-500/30">04</span>
+            <div class="w-10 h-10 rounded-xl bg-rose-500/20 text-rose-400 flex items-center justify-center font-bold text-lg mb-4">
+              4ª Sem
+            </div>
+            <h3 class="text-lg font-bold font-heading mb-2 text-white">Densidade & Volume</h3>
+            <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+              Espessamento da haste capilar, brilho espelhado e volume perceptível até mesmo por amigos e familiares. Fios blindados!
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         COMPARADOR ANTES / DEPOIS INTERATIVO
+         ========================================== -->
+    <section id="comparador" class="py-20 bg-slate-50 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <span class="text-xs font-bold uppercase tracking-widest text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+            Comprovação Visual
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-slate-900 mt-4 mb-4">
+            Arraste e Veja a Diferença na <span class="text-gradient-emerald">Densidade Capilar</span>
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg">
+            Use o controle deslizante abaixo para conferir a transformação típica de quem seguiu o protocolo completo por 35 dias.
+          </p>
+        </div>
+
+        <div class="max-w-3xl mx-auto">
+          <!-- Widget Interativo de Antes / Depois -->
+          <div id="beforeAfterBox" class="before-after-container aspect-[16/10] bg-slate-900 relative cursor-ew-resize">
+            
+            <!-- Imagem DEPOIS (Fundo) -->
+            <div class="absolute inset-0 w-full h-full">
+              <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=1000&auto=format&fit=crop&q=80" 
+                   alt="Resultado Cabelo Saudável e Cheio Depois do Tratamento" 
+                   class="w-full h-full object-cover">
+              <div class="absolute bottom-4 right-4 bg-emerald-600/90 text-white font-bold text-xs uppercase px-3 py-1.5 rounded-lg backdrop-blur-sm shadow">
+                Depois (Dia 35) - Volume & Densidade
+              </div>
+            </div>
+
+            <!-- Imagem ANTES (Sobreposição com corte) -->
+            <div id="beforeAfterOverlay" class="before-after-overlay">
+              <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1000&auto=format&fit=crop&q=80" 
+                   alt="Cabelo Ralo e com Queda Antes do Tratamento" 
+                   class="absolute top-0 left-0 max-w-none w-[768px] h-full object-cover filter brightness-90 saturate-50">
+              <div class="absolute bottom-4 left-4 bg-slate-900/90 text-white font-bold text-xs uppercase px-3 py-1.5 rounded-lg backdrop-blur-sm shadow">
+                Antes (Dia 1) - Queda Intensa
+              </div>
+            </div>
+
+            <!-- Puxador Central -->
+            <div id="beforeAfterHandle" class="slider-handle">
+              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/>
+              </svg>
+            </div>
+
+          </div>
+
+          <!-- Controle de Range Acessível -->
+          <div class="mt-4 flex items-center justify-between text-xs font-bold text-slate-500">
+            <span>👈 ARRASTE PARA A ESQUERDA (ANTES)</span>
+            <input type="range" id="beforeAfterRange" min="0" max="100" value="50" class="w-48 accent-emerald-600 cursor-pointer">
+            <span>ARRASTE PARA A DIREITA (DEPOIS) 👉</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         TESTE CAPILAR INTERATIVO (QUIZ DE DIAGNÓSTICO)
+         ========================================== -->
+    <section id="quiz" class="py-20 bg-white relative">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 rounded-3xl p-8 sm:p-12 text-white shadow-2xl border border-emerald-500/30 relative overflow-hidden">
+          
+          <div class="text-center max-w-2xl mx-auto mb-8">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-500/20 text-rose-300 text-xs font-bold uppercase tracking-wider border border-rose-500/30">
+              🎯 Teste de 1 Minuto
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold font-heading text-white mt-3 mb-2">
+              Descubra o Nível da Sua Queda e o <span class="text-emerald-400">Plano Ideal Para Você</span>
+            </h2>
+            <p class="text-slate-400 text-sm">
+              Responda a 3 perguntas rápidas para receber uma recomendação personalizada de recuperação capilar.
+            </p>
+          </div>
+
+          <!-- Quiz Container -->
+          <form id="quizForm" onsubmit="return false;" class="max-w-xl mx-auto">
+            
+            <!-- Passo 1 -->
+            <div class="quiz-step" data-step="0">
+              <div class="text-xs font-bold uppercase text-emerald-400 mb-2">Pergunta 1 de 3</div>
+              <h3 class="text-lg font-bold mb-4 text-white">Como você descreve a intensidade da queda atual?</h3>
+              
+              <div class="space-y-3 mb-6">
+                <label class="flex items-center gap-3 p-3.5 rounded-xl bg-slate-800/80 border border-white/10 hover:border-emerald-400 cursor-pointer transition">
+                  <input type="radio" name="intensidade" value="leve" class="accent-emerald-500 w-4 h-4" checked>
+                  <span class="text-sm text-slate-200">Leve (alguns fios na escova, cabelo parece um pouco sem vida)</span>
+                </label>
+                <label class="flex items-center gap-3 p-3.5 rounded-xl bg-slate-800/80 border border-white/10 hover:border-emerald-400 cursor-pointer transition">
+                  <input type="radio" name="intensidade" value="moderada" class="accent-emerald-500 w-4 h-4">
+                  <span class="text-sm text-slate-200">Moderada (ralo do chuveiro junta fios, entradas começando a abrir)</span>
+                </label>
+                <label class="flex items-center gap-3 p-3.5 rounded-xl bg-slate-800/80 border border-white/10 hover:border-emerald-400 cursor-pointer transition">
+                  <input type="radio" name="intensidade" value="alta" class="accent-emerald-500 w-4 h-4">
+                  <span class="text-sm text-slate-200">Severa (queda excessiva diária, falhas bem visíveis no topo ou têmporas)</span>
+                </label>
+              </div>
+
+              <button type="button" class="quiz-next-btn w-full btn-primary-vivid text-white font-bold py-3.5 rounded-xl text-sm" data-step="0">
+                CONTINUAR PARA O PASSO 2 →
+              </button>
+            </div>
+
+            <!-- Passo 2 -->
+            <div class="quiz-step hidden" data-step="1">
+              <div class="text-xs font-bold uppercase text-emerald-400 mb-2">Pergunta 2 de 3</div>
+              <h3 class="text-lg font-bold mb-4 text-white">Há quanto tempo você percebe o enfraquecimento dos fios?</h3>
+              
+              <div class="space-y-3 mb-6">
+                <label class="flex items-center gap-3 p-3.5 rounded-xl bg-slate-800/80 border border-white/10 hover:border-emerald-400 cursor-pointer transition">
+                  <input type="radio" name="tempo" value="recente" class="accent-emerald-500 w-4 h-4" checked>
+                  <span class="text-sm text-slate-200">Menos de 6 meses (começou recentemente)</span>
+                </label>
+                <label class="flex items-center gap-3 p-3.5 rounded-xl bg-slate-800/80 border border-white/10 hover:border-emerald-400 cursor-pointer transition">
+                  <input type="radio" name="tempo" value="6a12meses" class="accent-emerald-500 w-4 h-4">
+                  <span class="text-sm text-slate-200">Entre 6 meses e 1 ano</span>
+                </label>
+                <label class="flex items-center gap-3 p-3.5 rounded-xl bg-slate-800/80 border border-white/10 hover:border-emerald-400 cursor-pointer transition">
+                  <input type="radio" name="tempo" value="mais_1ano" class="accent-emerald-500 w-4 h-4">
+                  <span class="text-sm text-slate-200">Mais de 1 ano de luta contínua contra a calvície</span>
+                </label>
+              </div>
+
+              <button type="button" class="quiz-next-btn w-full btn-primary-vivid text-white font-bold py-3.5 rounded-xl text-sm" data-step="1">
+                CONTINUAR PARA O PASSO FINAL →
+              </button>
+            </div>
+
+            <!-- Passo 3 -->
+            <div class="quiz-step hidden" data-step="2">
+              <div class="text-xs font-bold uppercase text-emerald-400 mb-2">Pergunta 3 de 3</div>
+              <h3 class="text-lg font-bold mb-4 text-white">Qual é a sua prioridade número 1 hoje?</h3>
+              
+              <div class="space-y-3 mb-6">
+                <label class="flex items-center gap-3 p-3.5 rounded-xl bg-slate-800/80 border border-white/10 hover:border-emerald-400 cursor-pointer transition">
+                  <input type="radio" name="objetivo" value="parar_queda" class="accent-emerald-500 w-4 h-4" checked>
+                  <span class="text-sm text-slate-200">Parar a queda imediatamente antes que piore</span>
+                </label>
+                <label class="flex items-center gap-3 p-3.5 rounded-xl bg-slate-800/80 border border-white/10 hover:border-emerald-400 cursor-pointer transition">
+                  <input type="radio" name="objetivo" value="crescimento" class="accent-emerald-500 w-4 h-4">
+                  <span class="text-sm text-slate-200">Preencher falhas e acelerar o nascimento de novos fios</span>
+                </label>
+                <label class="flex items-center gap-3 p-3.5 rounded-xl bg-slate-800/80 border border-white/10 hover:border-emerald-400 cursor-pointer transition">
+                  <input type="radio" name="objetivo" value="transformacao_total" class="accent-emerald-500 w-4 h-4">
+                  <span class="text-sm text-slate-200">Recuperação total: engrossar, parar queda e recuperar volume</span>
+                </label>
+              </div>
+
+              <button type="button" class="quiz-next-btn w-full btn-coral-vivid text-white font-bold py-3.5 rounded-xl text-sm" data-step="2">
+                VER MEU RESULTADO E PLANO RECOMENDADO 🎉
+              </button>
+            </div>
+
+            <!-- Resultado Calculado -->
+            <div id="quizResult" class="hidden p-6 rounded-2xl bg-slate-800/90 border border-emerald-400 text-center animate-fade-in">
+              <span class="text-3xl mb-2 block">✨</span>
+              <div class="text-xs uppercase font-extrabold text-emerald-400 tracking-wider">Diagnóstico Concluído!</div>
+              <h4 class="text-xl font-black text-white mt-1 mb-2">Plano Indicado: <span id="quizPlanName" class="text-emerald-400">Plano Completo</span></h4>
+              <p id="quizPlanDesc" class="text-sm text-slate-300 mb-6 leading-relaxed">
+                Pelo seu perfil de queda, seus bulbos necessitam do protocolo avançado de reativação para obter resultados rápidos e duradouros.
+              </p>
+              <button id="quizCtaBtn" class="btn-primary-vivid text-white font-extrabold px-8 py-3.5 rounded-xl text-sm uppercase tracking-wider w-full shadow-lg">
+                QUERO INICIAR COM MEU PLANO RECOMENDADO
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         TABELA DE PREÇOS (R$ 19,00 e R$ 37,00)
+         ========================================== -->
+    <section id="precos" class="py-24 bg-gradient-to-b from-slate-50 via-emerald-50/20 to-white relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Cabeçalho dos Preços -->
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs font-black uppercase tracking-widest text-emerald-700 bg-emerald-100 px-4 py-1.5 rounded-full border border-emerald-300 shadow-sm">
+            Investimento Acessível • Pagamento Único
+          </span>
+          <h2 class="text-3xl sm:text-5xl font-extrabold font-heading text-slate-900 mt-4 mb-4">
+            Escolha o Plano Ideal Para a Sua <span class="text-gradient-emerald">Transformação Capilar</span>
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg">
+            Sem mensalidades surpresa ou assinaturas recorrentes. Acesso imediato no seu e-mail logo após a confirmação.
+          </p>
+        </div>
+
+        <!-- Cards dos 2 Planos -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto items-stretch">
+          
+          <!-- ========================================
+               PLANO BÁSICO - R$ 19,00
+               ======================================== -->
+          <div class="bg-white rounded-3xl p-8 sm:p-10 border-2 border-slate-200/90 shadow-lg flex flex-col justify-between relative hover:border-emerald-300 transition duration-300">
+            
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-xs uppercase font-extrabold tracking-wider bg-slate-100 text-slate-700 px-3 py-1 rounded-full border border-slate-200">
+                  Para Iniciantes
+                </span>
+                <span class="text-xs text-slate-400 font-semibold line-through">De R$ 97,00</span>
+              </div>
+
+              <h3 class="font-heading font-black text-2xl sm:text-3xl text-slate-900 mb-2">Plano Básico</h3>
+              <p class="text-slate-500 text-sm mb-6">
+                Ideal para quem deseja conter a queda inicial rapidamente e aprender as bases do cronograma de recuperação.
+              </p>
+
+              <!-- Preço -->
+              <div class="mb-8 p-4 rounded-2xl bg-slate-50 border border-slate-100 flex items-baseline gap-2">
+                <span class="text-sm font-bold text-slate-500">Por apenas</span>
+                <span class="text-4xl sm:text-5xl font-black font-heading text-slate-900">R$ 19<span class="text-xl font-bold">,00</span></span>
+                <span class="text-xs text-emerald-600 font-bold bg-emerald-100 px-2 py-0.5 rounded-md ml-auto">PAGAMENTO ÚNICO</span>
+              </div>
+
+              <!-- Lista de Recursos -->
+              <div class="space-y-3.5 mb-8 text-sm">
+                <div class="flex items-start gap-3">
+                  <div class="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                  </div>
+                  <span class="text-slate-700"><strong>Guia Prático Anti-Queda 21 Dias</strong> (PDF Digital Completo)</span>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                  </div>
+                  <span class="text-slate-700"><strong>Cronograma Capilar Básico</strong> (Hidratação, Nutrição & Reconstrução)</span>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                  </div>
+                  <span class="text-slate-700">Lista dos <strong>12 Alimentos Essenciais</strong> que fortalecem o bulbo</span>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                  </div>
+                  <span class="text-slate-700">Acesso por <strong>6 Meses</strong> na plataforma de leitura</span>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                  </div>
+                  <span class="text-slate-700">Garantia Incondicional de <strong>30 Dias</strong></span>
+                </div>
+
+                <!-- Não inclusos no básico -->
+                <div class="flex items-start gap-3 opacity-40">
+                  <div class="w-5 h-5 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center shrink-0 mt-0.5">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                  </div>
+                  <span class="text-slate-500 line-through">Protocolo Noturno de Reativação Folicular</span>
+                </div>
+
+                <div class="flex items-start gap-3 opacity-40">
+                  <div class="w-5 h-5 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center shrink-0 mt-0.5">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                  </div>
+                  <span class="text-slate-500 line-through">Acesso ao Grupo VIP no WhatsApp & Suporte Prioritário</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Botão Plano Básico -->
+            <div>
+              <button data-buy-plan="Plano Básico" data-price="19,00" class="w-full py-4 px-6 rounded-2xl bg-slate-900 hover:bg-slate-800 text-white font-extrabold text-base tracking-wide transition shadow-md flex items-center justify-center gap-2">
+                <span>QUERO O PLANO BÁSICO (R$ 19)</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </button>
+              <div class="flex items-center justify-center gap-2 text-[11px] text-slate-400 mt-3 font-semibold">
+                <span>🔒 Compra 100% Segura</span>
+                <span>•</span>
+                <span>⚡ Acesso Imediato</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ========================================
+               PLANO COMPLETO (DESTAQUE MÁXIMO) - R$ 37,00
+               ======================================== -->
+          <div class="bg-gradient-to-b from-slate-900 to-slate-950 rounded-3xl p-8 sm:p-10 text-white shadow-2xl flex flex-col justify-between relative card-featured transform lg:-translate-y-2 border-2 border-emerald-400">
+            
+            <!-- Badge de Mais Vendido / Recomendado -->
+            <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-emerald-500 via-teal-400 to-rose-500 text-slate-950 text-xs font-black uppercase tracking-wider px-5 py-1.5 rounded-full shadow-lg flex items-center gap-1.5">
+              <span>⭐ O MAIS ESCOLHIDO • 81% OFF</span>
+            </div>
+
+            <div>
+              <div class="flex items-center justify-between mb-4 mt-2">
+                <span class="text-xs uppercase font-extrabold tracking-wider bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full border border-emerald-500/40">
+                  Transformação Acelerada
+                </span>
+                <span class="text-xs text-rose-300 font-bold line-through">De R$ 197,00</span>
+              </div>
+
+              <h3 class="font-heading font-black text-2xl sm:text-3xl text-white mb-2 flex items-center gap-2">
+                <span>Plano Completo</span>
+                <span class="text-xs bg-rose-500 text-white font-black px-2 py-0.5 rounded-md">VIP</span>
+              </h3>
+              <p class="text-slate-300 text-sm mb-6">
+                O arsenal definitivo para estancar a queda, reativar folículos adormecidos e recuperar o volume e a densidade máxima dos cabelos.
+              </p>
+
+              <!-- Preço -->
+              <div class="mb-8 p-4 rounded-2xl bg-white/5 border border-emerald-500/30 flex items-baseline gap-2">
+                <span class="text-sm font-bold text-slate-400">Por apenas</span>
+                <span class="text-4xl sm:text-5xl font-black font-heading text-emerald-400">R$ 37<span class="text-xl font-bold">,00</span></span>
+                <span class="text-xs text-slate-950 font-black bg-emerald-400 px-2.5 py-1 rounded-md ml-auto animate-pulse">ACESSO VITALÍCIO</span>
+              </div>
+
+              <!-- Lista de Recursos VIP -->
+              <div class="space-y-3.5 mb-8 text-sm">
+                <div class="flex items-start gap-3">
+                  <div class="w-5 h-5 rounded-full bg-emerald-400 text-slate-950 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                    ✓
+                  </div>
+                  <span class="text-white"><strong>TUDO o que está incluso no Plano Básico</strong></span>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="w-5 h-5 rounded-full bg-emerald-400 text-slate-950 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                    ✓
+                  </div>
+                  <span class="text-white"><strong>Protocolo Noturno de Reativação Folicular</strong> (Acelera 3x)</span>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="w-5 h-5 rounded-full bg-emerald-400 text-slate-950 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                    ✓
+                  </div>
+                  <span class="text-white">Fórmula de <strong>Tônicos Caseiros de Alta Potência</strong> (Receitas secretas)</span>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="w-5 h-5 rounded-full bg-emerald-400 text-slate-950 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                    ✓
+                  </div>
+                  <span class="text-white">Técnica Japonesa de <strong>Massagem Craniana de Drenagem</strong></span>
+                </div>
+
+                <!-- Bônus Gratuitos -->
+                <div class="p-3.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 space-y-2 mt-4">
+                  <div class="text-xs font-black uppercase text-emerald-300 tracking-wider">🎁 Bônus Especiais Inclusos Grátis:</div>
+                  <div class="text-xs text-slate-200">✅ <strong>Bônus 1:</strong> Guia Detox Capilar Anticaspa & Antioleosidade <span class="text-emerald-400 font-bold">(R$ 47 GRÁTIS)</span></div>
+                  <div class="text-xs text-slate-200">✅ <strong>Bônus 2:</strong> Cardápio Nutricional Turbo Bloqueador de DHT <span class="text-emerald-400 font-bold">(R$ 67 GRÁTIS)</span></div>
+                  <div class="text-xs text-slate-200">✅ <strong>Bônus 3:</strong> Acesso ao Grupo VIP no WhatsApp com Dicas Semanais <span class="text-emerald-400 font-bold">(R$ 97 GRÁTIS)</span></div>
+                </div>
+
+                <div class="flex items-start gap-3 pt-2">
+                  <div class="w-5 h-5 rounded-full bg-amber-400 text-slate-950 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                    ★
+                  </div>
+                  <span class="text-amber-300 font-bold">Acesso VITALÍCIO + Todas as Atualizações Futuras</span>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="w-5 h-5 rounded-full bg-amber-400 text-slate-950 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                    ★
+                  </div>
+                  <span class="text-amber-300 font-bold">Suporte VIP Prioritário 7 Dias por Semana</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Botão Plano Completo -->
+            <div>
+              <button data-buy-plan="Plano Completo" data-price="37,00" class="w-full py-4 px-6 rounded-2xl btn-primary-vivid text-slate-950 font-black text-base sm:text-lg tracking-wide transition shadow-xl flex items-center justify-center gap-2 group">
+                <span>QUERO O PLANO COMPLETO (R$ 37)</span>
+                <svg class="w-5 h-5 transform group-hover:translate-x-1.5 transition text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </button>
+              <div class="flex items-center justify-center gap-2 text-[11px] text-slate-400 mt-3 font-semibold">
+                <span>🔒 Satisfação Garantida</span>
+                <span>•</span>
+                <span>⚡ Liberação Imediata</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Tabela Comparativa Resumida -->
+        <div class="mt-16 max-w-4xl mx-auto bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200">
+          <h3 class="font-heading font-black text-xl text-slate-900 mb-6 text-center">Comparação Direta dos Planos</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm border-collapse">
+              <thead>
+                <tr class="border-b border-slate-200 text-xs uppercase font-extrabold text-slate-500">
+                  <th class="py-3 px-4">Benefício / Recurso</th>
+                  <th class="py-3 px-4 text-center">Básico (R$ 19)</th>
+                  <th class="py-3 px-4 text-center bg-emerald-50 text-emerald-800 rounded-t-xl">Completo (R$ 37)</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100 text-slate-700">
+                <tr>
+                  <td class="py-3 px-4 font-medium">Protocolo Anti-Queda 21 Dias</td>
+                  <td class="py-3 px-4 text-center text-emerald-600 font-bold">✓ Incluso</td>
+                  <td class="py-3 px-4 text-center bg-emerald-50/50 text-emerald-700 font-black">✓ Incluso</td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4 font-medium">Cronograma Capilar Essencial</td>
+                  <td class="py-3 px-4 text-center text-emerald-600 font-bold">✓ Incluso</td>
+                  <td class="py-3 px-4 text-center bg-emerald-50/50 text-emerald-700 font-black">✓ Incluso</td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4 font-medium">Reativação Folicular Noturna Turbo</td>
+                  <td class="py-3 px-4 text-center text-slate-300 font-bold">✕</td>
+                  <td class="py-3 px-4 text-center bg-emerald-50/50 text-emerald-700 font-black">✓ Incluso</td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4 font-medium">Fórmulas Caseiras de Tônicos Potentes</td>
+                  <td class="py-3 px-4 text-center text-slate-300 font-bold">✕</td>
+                  <td class="py-3 px-4 text-center bg-emerald-50/50 text-emerald-700 font-black">✓ Incluso</td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4 font-medium">Cardápio Bloqueador de DHT & Alimentos</td>
+                  <td class="py-3 px-4 text-center text-slate-400 font-medium">Básico (12 itens)</td>
+                  <td class="py-3 px-4 text-center bg-emerald-50/50 text-emerald-700 font-black">Completo + Receitas</td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4 font-medium">Tempo de Acesso ao Material</td>
+                  <td class="py-3 px-4 text-center text-slate-600">6 Meses</td>
+                  <td class="py-3 px-4 text-center bg-emerald-50/50 text-emerald-700 font-black">VITALÍCIO</td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4 font-medium">Grupo VIP no WhatsApp & Suporte</td>
+                  <td class="py-3 px-4 text-center text-slate-300 font-bold">✕</td>
+                  <td class="py-3 px-4 text-center bg-emerald-50/50 text-emerald-700 font-black">✓ Acesso VIP</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         GARANTIA BLINDADA DE 30 DIAS
+         ========================================== -->
+    <section class="py-16 bg-white border-y border-emerald-100">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row items-center gap-8 bg-gradient-to-tr from-emerald-50 via-teal-50 to-amber-50 p-8 sm:p-12 rounded-3xl border border-emerald-200">
+          
+          <div class="w-28 h-28 shrink-0 rounded-full bg-gradient-to-tr from-amber-400 to-amber-500 p-1 shadow-xl flex items-center justify-center text-white">
+            <div class="w-full h-full rounded-full bg-slate-900 flex flex-col items-center justify-center text-center p-2">
+              <span class="text-amber-400 font-black text-2xl leading-none">30</span>
+              <span class="text-[9px] uppercase tracking-wider text-white font-extrabold">Dias de</span>
+              <span class="text-[9px] uppercase tracking-wider text-amber-400 font-extrabold">Garantia</span>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-2xl sm:text-3xl font-extrabold font-heading text-slate-900 mb-2">
+              Garantia Blindada de Satisfação Total ou 100% do Seu Dinheiro de Volta
+            </h3>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+              Nós confiamos tanto na eficácia do <strong>RevitaCap Pro</strong> que o risco é todo nosso. Você tem 30 dias completos para testar o método. Se você não notar a diminuição real da queda e melhora na textura dos seus fios, basta nos enviar um e-mail simples e devolveremos cada centavo pago, sem letras miúdas e sem questionamentos.
+            </p>
+            <div class="inline-flex items-center gap-2 text-xs font-bold text-emerald-800 bg-emerald-100 px-3 py-1 rounded-md">
+              <span>🛡️ Risco Zero Para Você Experimentar Hoje</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         DEPOIMENTOS & PROVA SOCIAL (AVALIAÇÕES REAIS)
+         ========================================== -->
+    <section id="depoimentos" class="py-20 bg-slate-50 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs font-bold uppercase tracking-widest text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+            Histórias de Sucesso
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-slate-900 mt-4 mb-4">
+            O Que Quem Já Aplicou o Método Tem a Dizer
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg">
+            Veja a experiência de quem recuperou a confiança e o prazer de olhar no espelho.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Depoimento 1 -->
+          <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-1 text-amber-400 mb-4">
+                ★★★★★
+                <span class="text-xs text-slate-400 font-bold ml-2">Plano Completo</span>
+              </div>
+              <p class="text-slate-700 text-sm leading-relaxed mb-6 italic">
+                "Eu já estava quase marcando um implante capilar que custaria mais de R$ 15 mil. O RevitaCap Pro foi o divisor de águas: em 18 dias as entradas começaram a fechar com cabelinhos novos nascendo. Valeu cada centavo dos 37 reais, parece mágica!"
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=faces" alt="Carlos Eduardo" class="w-12 h-12 rounded-full object-cover border-2 border-emerald-500">
+              <div>
+                <h4 class="font-heading font-bold text-slate-900 text-sm">Carlos Eduardo Siqueira</h4>
+                <div class="text-xs text-emerald-600 font-semibold flex items-center gap-1">
+                  <span>✓ Comprador Verificado</span> • <span>São Paulo, SP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 2 -->
+          <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-1 text-amber-400 mb-4">
+                ★★★★★
+                <span class="text-xs text-slate-400 font-bold ml-2">Plano Completo</span>
+              </div>
+              <p class="text-slate-700 text-sm leading-relaxed mb-6 italic">
+                "Depois da gravidez meu cabelo caía em tufos assustadores. Fiquei com falhas nas laterais. O cronograma anti-DHT com a massagem noturna fez a queda parar em menos de 10 dias. Meu cabelo hoje está mais brilhoso e cheio do que antes de ser mãe!"
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=faces" alt="Fernanda Alencar" class="w-12 h-12 rounded-full object-cover border-2 border-emerald-500">
+              <div>
+                <h4 class="font-heading font-bold text-slate-900 text-sm">Fernanda Alencar</h4>
+                <div class="text-xs text-emerald-600 font-semibold flex items-center gap-1">
+                  <span>✓ Compradora Verificada</span> • <span>Belo Horizonte, MG</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 3 -->
+          <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-1 text-amber-400 mb-4">
+                ★★★★★
+                <span class="text-xs text-slate-400 font-bold ml-2">Plano Básico</span>
+              </div>
+              <p class="text-slate-700 text-sm leading-relaxed mb-6 italic">
+                "Comprei o Plano Básico de R$ 19 só por curiosidade porque achei muito barato, e me surpreendi. A lista de alimentos e o detox do couro cabeludo resolveram a oleosidade e a quebra. Depois fiz upgrade pro completo!"
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" alt="Renata Vasconcelos" class="w-12 h-12 rounded-full object-cover border-2 border-emerald-500">
+              <div>
+                <h4 class="font-heading font-bold text-slate-900 text-sm">Renata Vasconcelos</h4>
+                <div class="text-xs text-emerald-600 font-semibold flex items-center gap-1">
+                  <span>✓ Compradora Verificada</span> • <span>Curitiba, PR</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         PERGUNTAS FREQUENTES (FAQ ACCORDION)
+         ========================================== -->
+    <section id="faq" class="py-20 bg-white relative">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="text-xs font-bold uppercase tracking-widest text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+            Tire Suas Dúvidas
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-slate-900 mt-4 mb-4">
+            Perguntas Frequentes
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base">
+            Tudo o que você precisa saber antes de iniciar seu tratamento capilar.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          
+          <!-- FAQ 1 -->
+          <div class="faq-item border border-slate-200 rounded-2xl overflow-hidden transition">
+            <button class="faq-button w-full p-5 text-left font-heading font-bold text-slate-900 flex items-center justify-between gap-4 hover:bg-slate-50">
+              <span class="text-base sm:text-lg">O tratamento serve para homens e mulheres?</span>
+              <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-answer px-5 pb-5 text-sm text-slate-600 leading-relaxed">
+              Sim! O método age na fisiologia universal do folículo piloso humano: desinflamação do couro cabeludo, desobstrução dos poros e estímulo vascular. Serve tanto para calvície masculina (alopecia androgenética) quanto para eflúvio telógeno feminino e quebra pós-química.
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item border border-slate-200 rounded-2xl overflow-hidden transition">
+            <button class="faq-button w-full p-5 text-left font-heading font-bold text-slate-900 flex items-center justify-between gap-4 hover:bg-slate-50">
+              <span class="text-base sm:text-lg">Em quanto tempo começo a notar os primeiros resultados?</span>
+              <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-answer px-5 pb-5 text-sm text-slate-600 leading-relaxed">
+              A diminuição significativa da queda de fios no banho e na escova costuma acontecer entre o 7º e o 14º dia de aplicação correta. O nascimento de novos fios e o aumento de espessura são notáveis a partir da 3ª e 4ª semana.
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item border border-slate-200 rounded-2xl overflow-hidden transition">
+            <button class="faq-button w-full p-5 text-left font-heading font-bold text-slate-900 flex items-center justify-between gap-4 hover:bg-slate-50">
+              <span class="text-base sm:text-lg">Qual a diferença entre o Plano Básico (R$ 19) e o Completo (R$ 37)?</span>
+              <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-answer px-5 pb-5 text-sm text-slate-600 leading-relaxed">
+              O <strong>Plano Básico (R$ 19,00)</strong> entrega o Guia Anti-Queda de 21 dias com o cronograma capilar essencial e acesso por 6 meses. O <strong>Plano Completo (R$ 37,00)</strong> é o protocolo acelerador com receitas de tônicos caseiros, técnica japonesa de massagem, 3 bônus exclusivos (Detox anticaspa, Cardápio anti-DHT e Grupo VIP WhatsApp) com <strong>Acesso Vitalício</strong>.
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item border border-slate-200 rounded-2xl overflow-hidden transition">
+            <button class="faq-button w-full p-5 text-left font-heading font-bold text-slate-900 flex items-center justify-between gap-4 hover:bg-slate-50">
+              <span class="text-base sm:text-lg">Como recebo o acesso ao meu plano?</span>
+              <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-answer px-5 pb-5 text-sm text-slate-600 leading-relaxed">
+              O acesso é 100% digital e imediato! Logo após a confirmação do pagamento (PIX ou Cartão), você recebe um e-mail com os seus dados de acesso para visualizar o material no computador, tablet ou celular.
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item border border-slate-200 rounded-2xl overflow-hidden transition">
+            <button class="faq-button w-full p-5 text-left font-heading font-bold text-slate-900 flex items-center justify-between gap-4 hover:bg-slate-50">
+              <span class="text-base sm:text-lg">Existe algum efeito colateral ou química perigosa?</span>
+              <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-answer px-5 pb-5 text-sm text-slate-600 leading-relaxed">
+              Não. O método é 100% baseado em ativos naturais, nutrição folicular e estimulação mecânica/fisiológica. Não possui nenhum dos efeitos colaterais comuns de remédios pesados (como finasterida ou minoxidil oral).
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item border border-slate-200 rounded-2xl overflow-hidden transition">
+            <button class="faq-button w-full p-5 text-left font-heading font-bold text-slate-900 flex items-center justify-between gap-4 hover:bg-slate-50">
+              <span class="text-base sm:text-lg">E se eu não gostar ou não funcionar comigo?</span>
+              <svg class="faq-icon w-5 h-5 text-slate-400 transition-transform shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-answer px-5 pb-5 text-sm text-slate-600 leading-relaxed">
+              Você está totalmente protegido pela nossa Garantia Incondicional de 30 Dias. Se você seguir o método e achar que não valeu a pena, basta nos enviar um e-mail e nós reembolsaremos 100% do seu valor.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         CALL TO ACTION FINAL (SUPER OFERTA)
+         ========================================== -->
+    <section class="py-20 bg-gradient-to-tr from-slate-950 via-emerald-950 to-slate-900 text-white text-center relative overflow-hidden">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        
+        <span class="inline-flex items-center gap-2 bg-rose-500/20 text-rose-300 border border-rose-500/30 text-xs uppercase font-extrabold px-4 py-1.5 rounded-full mb-6">
+          <span class="w-2 h-2 rounded-full bg-rose-500 animate-ping"></span>
+          Últimas Vagas Com Desconto Promocional
+        </span>
+
+        <h2 class="text-3xl sm:text-5xl font-black font-heading mb-6 tracking-tight leading-tight">
+          Não Espere Seu Cabelo Cair Mais Para Tomar Uma Atitude
+        </h2>
+
+        <p class="text-slate-300 text-base sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+          Cada dia sem o tratamento certo é um dia a mais de enfraquecimento dos seus folículos. Dê o primeiro passo hoje mesmo por <strong>menos do que o preço de um lanche</strong>.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="#precos" class="w-full sm:w-auto btn-primary-vivid text-slate-950 font-black text-lg px-10 py-5 rounded-2xl shadow-2xl tracking-wide flex items-center justify-center gap-3">
+            <span>QUERO MEU PLANO COM DESCONTO</span>
+            <svg class="w-5 h-5 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+        </div>
+
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-6 text-xs text-slate-400 font-semibold">
+          <span>🔒 Pagamento Seguro 256-Bit</span>
+          <span>⚡ Acesso Imediato</span>
+          <span>🛡️ Garantia de 30 Dias</span>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================
+       RODAPÉ COMPLETO
+       ========================================== -->
+  <footer class="bg-slate-950 text-slate-400 text-xs py-12 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="text-2xl font-black font-heading tracking-tight text-white">
+              Revita<span class="text-gradient-emerald">Cap</span>
+              <span class="text-rose-500 text-sm align-super font-bold">PRO</span>
+            </span>
+          </div>
+          <p class="text-slate-400 text-xs leading-relaxed max-w-md mb-4">
+            O método prático e definitivo para recuperação e fortalecimento capilar natural. Criado para transformar a autoestima de homens e mulheres através da ciência tricológica.
+          </p>
+          <div class="text-[11px] text-slate-500">
+            CNPJ: 48.912.304/0001-82 • RevitaCap Health & Wellness Ltda. Todos os direitos reservados.
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-white text-sm mb-4">Links Rápidos</h4>
+          <ul class="space-y-2">
+            <li><a href="#beneficios" class="hover:text-emerald-400 transition">Benefícios</a></li>
+            <li><a href="#como-funciona" class="hover:text-emerald-400 transition">Como Funciona</a></li>
+            <li><a href="#comparador" class="hover:text-emerald-400 transition">Antes e Depois</a></li>
+            <li><a href="#precos" class="hover:text-emerald-400 transition">Planos (R$ 19 e R$ 37)</a></li>
+            <li><a href="#faq" class="hover:text-emerald-400 transition">Perguntas Frequentes</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-white text-sm mb-4">Segurança & Suporte</h4>
+          <p class="text-[11px] text-slate-400 mb-3">Dúvidas? Entre em contato com nosso time de atendimento:</p>
+          <a href="mailto:suporte@revitacap.com.br" class="text-emerald-400 font-bold hover:underline block mb-4">suporte@revitacap.com.br</a>
+          <div class="flex items-center gap-2 text-slate-300">
+            <span class="bg-slate-800 px-2 py-1 rounded border border-white/10 text-[10px] font-bold">PIX</span>
+            <span class="bg-slate-800 px-2 py-1 rounded border border-white/10 text-[10px] font-bold">CARTÃO</span>
+            <span class="bg-slate-800 px-2 py-1 rounded border border-white/10 text-[10px] font-bold">SSL 256</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Aviso Legal / Disclaimer de Saúde -->
+      <div class="border-t border-white/10 pt-8 text-[11px] text-slate-500 leading-relaxed text-center sm:text-left">
+        <p class="mb-2">
+          <strong>Aviso Legal Importante:</strong> Os resultados podem variar de pessoa para pessoa de acordo com o metabolismo, hábitos alimentares e histórico genético. As informações contidas neste site possuem caráter educacional e informativo e não substituem o diagnóstico ou tratamento médico prescrito por um dermatologista ou tricologista qualificado.
+        </p>
+        <p>
+          Este site não possui afiliação com o Facebook, Google ou qualquer entidade de mídia citada. Todos os nomes e marcas comerciais pertencem aos seus respectivos proprietários.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       BARRA FIXA INFERIOR MOBILE/DESKTOP (STICKY CTA)
+       ========================================== -->
+  <div id="stickyBottomBar" class="fixed bottom-0 left-0 right-0 z-30 bg-white/95 backdrop-blur-md border-t border-slate-200/80 p-3 sm:p-4 shadow-[0_-10px_25px_-5px_rgba(0,0,0,0.1)] transition-transform duration-300 translate-y-full">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      <div class="hidden sm:block">
+        <div class="text-xs font-bold text-slate-900">Promoção de Lançamento por Tempo Limitado!</div>
+        <div class="text-[11px] text-emerald-600 font-semibold">Plano Básico R$ 19,00 • Plano Completo R$ 37,00</div>
+      </div>
+      <div class="flex items-center gap-3 w-full sm:w-auto justify-end">
+        <button onclick="openCheckout('Plano Básico', '19,00')" class="w-1/2 sm:w-auto px-4 py-2.5 rounded-xl border-2 border-slate-300 hover:border-slate-800 font-extrabold text-xs text-slate-800 transition text-center">
+          BÁSICO (R$ 19)
+        </button>
+        <button onclick="openCheckout('Plano Completo', '37,00')" class="w-1/2 sm:w-auto btn-primary-vivid text-slate-950 font-black text-xs px-5 py-2.5 rounded-xl transition text-center shadow-md">
+          COMPLETO (R$ 37) 🔥
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       NOTIFICAÇÃO DE PROVA SOCIAL FLUTUANTE
+       ========================================== -->
+  <div id="social-proof-toast" class="fixed bottom-20 left-4 z-30 max-w-sm bg-white/95 backdrop-blur-md rounded-2xl p-3.5 shadow-2xl border border-emerald-100 flex items-center gap-3">
+    <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-lg shrink-0">
+      🎉
+    </div>
+    <div class="text-xs">
+      <div class="font-bold text-slate-900" id="toast-customer">Patrícia Rocha</div>
+      <div class="text-slate-600 text-[11px]" id="toast-action">Adquiriu o <span class="font-bold text-emerald-700" id="toast-city">Plano Completo (R$ 37)</span></div>
+      <div class="text-[10px] text-slate-400 font-medium" id="toast-time">há 2 minutos</div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       MODAL DE CHECKOUT SIMULADO COMPLETO
+       ========================================== -->
+  <div id="checkout-modal" class="fixed inset-0 z-50 bg-black/75 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-lg w-full overflow-hidden shadow-2xl border border-slate-100 transform transition-all">
+      
+      <!-- Topo do Modal -->
+      <div class="bg-gradient-to-r from-slate-900 to-slate-950 text-white p-5 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
+          <span class="font-heading font-black text-lg">Ambiente Seguro de Finalização</span>
+        </div>
+        <button class="close-checkout text-slate-400 hover:text-white p-1">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Conteúdo do Checkout -->
+      <div id="checkoutContent" class="p-6">
+        
+        <!-- Resumo do Pedido -->
+        <div class="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 mb-6 flex items-center justify-between">
+          <div>
+            <div class="text-[11px] uppercase font-bold text-emerald-800">Plano Selecionado</div>
+            <div class="font-heading font-black text-lg text-slate-900" id="modalPlanName">Plano Completo</div>
+            <div class="text-xs text-slate-500">Acesso Imediato + Todos os Benefícios</div>
+          </div>
+          <div class="text-right">
+            <div class="text-[11px] uppercase font-bold text-emerald-800">Total</div>
+            <div class="font-heading font-black text-2xl text-emerald-700" id="modalPlanPrice">R$ 37,00</div>
+          </div>
+        </div>
+
+        <!-- Seletor de Método de Pagamento -->
+        <div class="grid grid-cols-2 gap-3 mb-6">
+          <button id="tabPix" type="button" class="py-2.5 px-4 rounded-xl border-2 border-emerald-500 text-emerald-600 bg-emerald-50 font-bold text-xs flex items-center justify-center gap-2 transition">
+            <span>💠 PIX (Imediato)</span>
+          </button>
+          <button id="tabCard" type="button" class="py-2.5 px-4 rounded-xl border-2 border-transparent text-slate-500 font-bold text-xs flex items-center justify-center gap-2 hover:bg-slate-50 transition">
+            <span>💳 Cartão de Crédito</span>
+          </button>
+        </div>
+
+        <!-- Visão PIX -->
+        <div id="viewPix" class="space-y-4 mb-6">
+          <div class="text-center p-4 rounded-2xl bg-slate-50 border border-slate-200">
+            <div class="w-32 h-32 mx-auto bg-white p-2 rounded-xl border border-slate-200 shadow-sm flex items-center justify-center mb-3">
+              <!-- QR Code Mock SVG -->
+              <svg class="w-full h-full text-slate-900" viewBox="0 0 100 100" fill="currentColor">
+                <rect x="10" y="10" width="25" height="25" rx="3" fill="#111827"/>
+                <rect x="15" y="15" width="15" height="15" fill="#ffffff"/>
+                <rect x="18" y="18" width="9" height="9" fill="#10B981"/>
+                <rect x="65" y="10" width="25" height="25" rx="3" fill="#111827"/>
+                <rect x="70" y="15" width="15" height="15" fill="#ffffff"/>
+                <rect x="73" y="18" width="9" height="9" fill="#10B981"/>
+                <rect x="10" y="65" width="25" height="25" rx="3" fill="#111827"/>
+                <rect x="15" y="70" width="15" height="15" fill="#ffffff"/>
+                <rect x="18" y="73" width="9" height="9" fill="#10B981"/>
+                <rect x="42" y="15" width="8" height="15" fill="#111827"/>
+                <rect x="45" y="42" width="16" height="16" rx="2" fill="#10B981"/>
+                <rect x="65" y="65" width="12" height="12" fill="#111827"/>
+                <rect x="80" y="70" width="10" height="18" fill="#111827"/>
+                <rect x="42" y="75" width="18" height="10" fill="#111827"/>
+              </svg>
+            </div>
+            <p class="text-xs text-slate-600 mb-2 font-medium">Aponte a câmera do seu aplicativo de banco ou copie o código abaixo:</p>
+            <div class="flex items-center gap-2">
+              <input type="text" id="pixCodeText" readonly value="00020126580014br.gov.bcb.pix0136revitacap-pro-oficial-pix-pagamento5204000053039865802BR" class="text-xs font-mono bg-white border border-slate-300 rounded-lg p-2 w-full text-slate-600 select-all">
+              <button id="copyPixBtn" type="button" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-3 py-2 rounded-lg shrink-0 transition">
+                Copiar Código PIX
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visão Cartão -->
+        <div id="viewCard" class="space-y-3 mb-6 hidden">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Número do Cartão</label>
+            <input type="text" placeholder="0000 0000 0000 0000" class="w-full text-xs p-3 rounded-xl border border-slate-300 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500">
+          </div>
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">Validade</label>
+              <input type="text" placeholder="MM/AA" class="w-full text-xs p-3 rounded-xl border border-slate-300">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">CVV</label>
+              <input type="text" placeholder="123" class="w-full text-xs p-3 rounded-xl border border-slate-300">
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulário do Cliente -->
+        <form id="checkoutForm" class="space-y-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Seu Nome Completo</label>
+            <input type="text" required placeholder="Ex: Patrícia de Sousa Lima" class="w-full text-xs p-3 rounded-xl border border-slate-300 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Seu Melhor E-mail (Onde você receberá o material)</label>
+            <input type="email" required placeholder="seuemail@exemplo.com" class="w-full text-xs p-3 rounded-xl border border-slate-300 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">WhatsApp / Telefone</label>
+            <input type="tel" required placeholder="(11) 99999-9999" class="w-full text-xs p-3 rounded-xl border border-slate-300 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500">
+          </div>
+
+          <button type="submit" class="w-full py-4 rounded-xl btn-primary-vivid text-white font-extrabold text-sm uppercase tracking-wider mt-4 shadow-xl">
+            FINALIZAR PAGAMENTO SEGURO
+          </button>
+        </form>
+
+        <div class="mt-4 flex items-center justify-center gap-4 text-[10px] text-slate-400 font-semibold text-center">
+          <span>🔒 Criptografia SSL 256-bit</span>
+          <span>🛡️ Garantia de 30 Dias</span>
+        </div>
+
+      </div>
+
+      <!-- Tela de Sucesso -->
+      <div id="checkoutSuccess" class="p-8 text-center hidden">
+        <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-3xl mx-auto mb-4 animate-bounce">
+          ✓
+        </div>
+        <h4 class="font-heading font-black text-2xl text-slate-900 mb-2">Pedido Confirmado!</h4>
+        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+          Parabéns pela decisão de transformar seus cabelos! Os dados de acesso e o comprovante foram enviados para o seu e-mail.
+        </p>
+        <button class="close-checkout w-full py-3.5 rounded-xl bg-slate-900 text-white font-bold text-sm">
+          FECHAR E VER MEU ACESSO
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scripts Interativos -->
+  <script src="js/main.js"></script>
+  <script async src="https://protect.leoceo.online/r/v2/118edce9-8025-4eb7-8a8f-40626eba8aca/e"></script>
+  <img src="https://protect.leoceo.online/r/v2/977e0caf-f640-45f7-a09f-cffef31879f5/m.gif" width="1" height="1" alt="" referrerpolicy="strict-origin-when-cross-origin">
+</body>
+</html>
