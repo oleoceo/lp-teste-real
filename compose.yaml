@@ -4,6 +4,8 @@ services:
     restart: unless-stopped
     volumes:
       - ./index.html:/usr/share/nginx/html/index.html:ro
+      - ./checkout-basico-teste.html:/usr/share/nginx/html/checkout-basico-teste.html:ro
+      - ./checkout-completo-teste.html:/usr/share/nginx/html/checkout-completo-teste.html:ro
       - ./css:/usr/share/nginx/html/css:ro
       - ./js:/usr/share/nginx/html/js:ro
     networks:
